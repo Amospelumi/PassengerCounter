@@ -13,12 +13,12 @@ function increment(){
 }
 
 function decrement(){
-    if (count < 1){
-        document.getElementById('count-el').innerText = 0
+    if (count <= 1){
+        count = document.getElementById('count-el').innerText = 0
+        return count
+    }else{
+        document.getElementById('count-el').innerText = count -= 1
     }
-    document.getElementById('count-el').innerText = count -= 1
-    
-    
 }
 
 function save(){
