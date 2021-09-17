@@ -16,9 +16,19 @@ body{
 
 .container{
     text-align: center;
-    margin-top: 55px;
-    padding: 20px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
 }
 
 button[id='increment-btn']{
