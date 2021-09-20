@@ -17,7 +17,8 @@ body{
 .container{
     text-align: center;
     margin-top: 15px;
-    padding: 10px;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 h1{
@@ -31,6 +32,11 @@ h2{
     font-weight: 700;
 }
 
+p,span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
 button[id='increment-btn']{
     padding: 15px;
     color: white;
@@ -39,6 +45,11 @@ button[id='increment-btn']{
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
+    box-sizing: border-box;
+}
+
+button[id='increment-btn']:hover{
+    background-color: rgb(92, 5, 5);
 }
 
 button[id='decrement-btn']{
@@ -49,6 +60,11 @@ button[id='decrement-btn']{
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
+    box-sizing: border-box;
+}
+
+button[id='decrement-btn']:hover{
+    background-color: rgb(5, 5, 77);
 }
 
 button[id='save-btn']{
@@ -60,4 +76,9 @@ button[id='save-btn']{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     width: 200px;
+    box-sizing: border-box;
+}
+
+button[id='save-btn']:hover{
+    background-color: rgb(3, 59, 3);
 }
